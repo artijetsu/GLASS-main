@@ -1,0 +1,74 @@
+.reg-form{
+    width: 100%;
+    height: 92vh;
+    background-image: url('../images/megales.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+form{
+    background-color: rgba(0, 128, 0, 0.267);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    width: 15%;
+}
+
+h3{
+    margin: 0;
+    color: whitesmoke;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(245, 245, 245, 0.658);
+    background-color: transparent;
+    color: white;
+    font-size: 13px;
+}
+
+input::placeholder{
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.reg-btn {
+    background-color: rgba(255, 255, 255, 0.479);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 2px solid transparent;
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px 0;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.reg-btn:hover {
+    background-color: transparent;
+    color: rgba(207, 207, 207, 0.521);
+    border: 2px solid rgba(190, 190, 190, 0.253);
+}
+
+a{
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: small;
+}   

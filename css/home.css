@@ -1,0 +1,365 @@
+main{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    height: 94%;
+}
+
+
+.side-bar{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailers{
+    background-color: rgba(245, 245, 245, 0.041);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 5%;
+    height: 40%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border: 1px solid rgba(245, 245, 245, 0.418);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.171);
+}
+
+.continue{
+    background-color: rgba(245, 245, 245, 0.041);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 5%;
+    color: white;
+    border: 1px solid rgba(245, 245, 245, 0.418);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.171);
+    width: 90%;
+    height: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main-content{
+    width: 73%;
+}
+
+.trailers h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.trailer-card1{
+    background-image: url("../images/шрекс.jfif");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 42%;
+    display: flex;
+    align-items: end;
+}
+
+.gradient-line{
+    background-color: rgba(27, 27, 27, 0.219);
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 20px 20px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.gradient-line p{
+    margin: 0;
+}
+
+.conti-play-btn{
+    background-color: rgba(255, 255, 255, 0.356);
+    backdrop-filter: blur(10px);
+    padding: 13px 11px;
+    border-radius: 100px;    
+
+}
+
+.trailer-card2{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    height: 42%;
+}
+
+.continue h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.conti-line1, .conti-line2, .conti-line3{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conti-line1 img{
+    height: 100%;
+    width: 28%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid rgba(245, 245, 245, 0.418);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.171);
+}
+
+.conti-line2 img{
+    height: 100%;
+    width: 28%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid rgba(245, 245, 245, 0.418);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.171);
+}
+
+.conti-line3 img{
+    height: 100%;
+    width: 28%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid rgba(245, 245, 245, 0.418);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.171);
+}
+
+.conti-line1 .content .seria{
+    font-weight: 14px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.664);
+}
+
+.conti-line1 .content .name{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.conti-play-btn{
+    background-color: rgba(255, 255, 255, 0.356);
+    backdrop-filter: blur(10px);
+    padding: 13px 11px;
+    border-radius: 100px;
+    margin-left: 19px;
+}
+
+.main-content{
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner{
+    width: 94%;
+    height: 44%;
+    border-radius: 20px;
+    padding: 3%;
+    border: 1px solid rgba(245, 245, 245, 0.418);
+    background-image: linear-gradient(rgba(48, 12, 12, 0.568), rgba(87, 51, 10, 0.5)) ,url("../images/titsnsss.png");
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+
+.banner .inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.left-ins{
+    width: 73%;
+}
+
+.right-ins{
+    width: 27%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.left-ins .tags{
+    display: flex;
+    gap: 10px;
+}
+
+.left-ins .tags p{
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.144);
+    backdrop-filter: blur(8px);
+    padding: 5px 20px;
+    border-radius: 100px;
+    border: 1px solid rgba(245, 245, 245, 0.418);
+    margin: 0;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.left-ins .desc{
+    color: whitesmoke;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+.left-ins .btns{
+    display: flex;
+    gap: 15px;
+}
+
+.left-ins .btns a{
+    background-color: rgba(255, 255, 255, 0.356);
+    backdrop-filter: blur(10px);
+    padding: 13px 11px;
+    border-radius: 100px;
+    color: aliceblue;
+    transition: all 0.1s ease;
+    border: 1px solid rgba(245, 245, 245, 0.418);
+}
+
+.left-ins .btns a:hover{
+    box-shadow: 0 0 10px rgba(250, 235, 215, 0.281);
+}
+
+.right-ins a{
+    background-color: rgba(255, 255, 255, 0.356);
+    backdrop-filter: blur(10px);
+    padding: 13px 11px;
+    border-radius: 100px;
+    color: aliceblue;
+    transition: all 0.1s ease;
+    border: 1px solid rgba(245, 245, 245, 0.418);
+}
+
+.right-ins a:hover{
+    box-shadow: 0 0 10px rgba(250, 235, 215, 0.281);
+}
+
+.trands{
+    width: 100%;
+    height: 42%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.trand-card1{
+    background-image: linear-gradient(rgba(48, 12, 12, 0.61), rgba(87, 51, 10, 0.562)) ,url("../images/lord.png");
+}
+
+.trand-card2{
+    background-image: linear-gradient(rgba(48, 12, 12, 0.61), rgba(87, 51, 10, 0.562)) ,url("../images/avatar.png");
+}
+
+.trand-card3{
+    background-image: linear-gradient(rgba(48, 12, 12, 0.61), rgba(87, 51, 10, 0.562)) ,url("../images/avengers.png");
+}
+
+.trand-card4{
+    background-image: linear-gradient(rgba(48, 12, 12, 0.61), rgba(87, 51, 10, 0.562)) ,url("../images/mars.png");
+}
+
+.trand-card1, .trand-card2, .trand-card3, .trand-card4{
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px;
+    border: 1px solid rgba(245, 245, 245, 0.418);
+    height: 100%;
+    width: 18%;
+    justify-content: space-between;
+    display: flex;
+    align-items: end;
+}
+
+.trands .left{
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+.trands .left .ganre{
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.144);
+    backdrop-filter: blur(8px);
+    padding: 5px 20px;
+    border-radius: 100px;
+    border: 1px solid rgba(245, 245, 245, 0.418);
+    margin: 0;
+    width: fit-content;
+}
+
+.trands .left h3{
+    color: aliceblue;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: top 3px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.trands .left .desc{
+    color: rgb(207, 207, 207);
+    font-weight: 100;
+    font-size: 14px;
+
+}
+
+.trands .left a{
+    color: aliceblue;
+    font-weight: 100;
+    border-bottom: 1px solid whitesmoke; 
+}
+
+.trands .right{
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+
+.trands .trands-play-btn{
+    background-color: rgba(255, 255, 255, 0.356);
+    backdrop-filter: blur(10px);
+    padding: 13px 11px;
+    border-radius: 100px;
+    color: aliceblue;
+    transition: all 0.1s ease;
+    border: 1px solid rgba(245, 245, 245, 0.418);
+    cursor: pointer;
+}
+
+.trands .trands-play-btn:hover{
+    box-shadow: 0 0 10px rgba(250, 235, 215, 0.281);
+}
+
+
+
+
+
+
+
+
+
